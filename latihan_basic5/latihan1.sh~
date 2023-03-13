@@ -1,0 +1,8 @@
+#!/bin/bash
+
+#latihan demo open port on Network
+
+#1.menggunakan -4 sebagai argumnet untuk membatasi port di protocol tcp IPv4
+
+netstat -nutl ${1} | grep ':' | awk '{print $4}' | awk -F ':' '{print $NF}'
+

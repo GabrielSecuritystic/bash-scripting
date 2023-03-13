@@ -1,0 +1,1 @@
+txtPrograms must be written for people to read,and only incidentally for machines to excetu." - Harold Abelson,Structure and Interpretation of Computer Programs

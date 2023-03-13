@@ -1,0 +1,16 @@
+syntax perintah/command pada bash:
+hash [-l] [-r] [-p pathname] [-d] [-t] [command_name..]
+
+beberapa perintah tambahan pada bash command shell:
+-d artinya lupakan lokasi yang diingat dari command_name
+-l artinya menampilkan informasi yang dapat digunakan kembali sebagai input untuk 		   program lain
+-p artinya gunakan pathname sebagai path lengkap dari command_name
+-r artinya lupakan semua lokasi yang diingat/riwayat lokasi
+-t artinya cetak lokasi yang diingat dari setiap command_name.Jika beberapa 		   nama_perintah diberikan disana,awali setiap lokasi dengan command_name yang  	   sesuai
+
+command_name artinya setiap command_name yang ditentukan dicari dalam variable 	  		             lingkungan jalur/path environment variabel,dan jika 	 			      ditemukan,ditambahkan ke daftar perintah yang diingat.
+
+hash artinya untuk menampilkan hash table untuk sesi yang sedang digunakan saat ini
+	     dengan menjalankan hash tanpa argument apapun
+
+
